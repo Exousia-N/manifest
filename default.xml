@@ -19,8 +19,12 @@
   <project path="build" name="build" groups="pdk" remote="exo" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="art" name="android_art" groups="pdk" remote="exo" />
+  <project path="external/busybox" name="external_busybox" remote="exo" />
+  <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="exo" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="exo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="exo" />
+  <project path="system/core" name="system_core" groups="pdk" remote="exo" />
   <project path="vendor/exousia" name="vendor_exousia" remote="exo" />
 
   <!-- AOSP Repo's -->
@@ -252,7 +256,6 @@
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
-  <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
   <project path="external/sl4a" name="platform/external/sl4a" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
@@ -476,7 +479,6 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
