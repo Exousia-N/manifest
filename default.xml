@@ -19,7 +19,7 @@
   <project path="build" name="build" groups="pdk" remote="exo" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="art" name="android_art" groups="pdk" remote="exo" />
+  <project path="art" name="art" groups="pdk" remote="exo" />
   <project path="external/busybox" name="external_busybox" remote="exo" />
   <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="exo" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="exo" />
