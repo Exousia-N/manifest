@@ -27,6 +27,9 @@
   <project path="system/core" name="system_core" groups="pdk" remote="exo" />
   <project path="vendor/exousia" name="vendor_exousia" remote="exo" />
 
+  <!-- Device -->
+  <project path="device/moto/shamu" name="device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="exo" />  
+
   <!-- Vendors -->
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="exo" />
 
@@ -52,7 +55,6 @@
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
-  <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
