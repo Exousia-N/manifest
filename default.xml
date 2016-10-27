@@ -9,7 +9,7 @@
   <remote name="exo"
            fetch="https://github.com/Exousia-N/"
            revision="n" /> 
-  <default revision="refs/tags/android-7.0.0_r1"
+  <default revision="refs/tags/android-7.1.0_r4"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
